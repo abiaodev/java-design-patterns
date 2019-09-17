@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2db3e5-e2bc-4fdd-97bc-9deb5f88f935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/biao/iterator/Aggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/iterator/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/iterator/ConcreteAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/iterator/ConcreteIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/singleton/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,20 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (4)">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.biao.decorator.App" />
-      <module name="java-design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.biao.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.App (5)">
     <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.biao.factory_method.App" />
       <module name="java-design-patterns" />
@@ -114,6 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.singleton.App" />
+      <module name="java-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.biao.composite.App" />
       <module name="java-design-patterns" />
@@ -141,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.App (2)" />
       <item itemvalue="Application.App (3)" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.App (4)" />
+      <item itemvalue="Application.App (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (5)" />
         <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.App (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568723409849</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="新增：迭代器模式">
+      <created>1568724447551</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568724447551</updated>
+    </task>
+    <task id="LOCAL-00008" summary="优化：将所有public去掉">
+      <created>1568724694292</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568724694292</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +245,9 @@
     <MESSAGE value="新增：工厂方法模式" />
     <MESSAGE value="新增：备忘录模式" />
     <MESSAGE value="新增：组合模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增：组合模式" />
+    <MESSAGE value="新增：迭代器模式" />
+    <MESSAGE value="优化：将所有public去掉" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化：将所有public去掉" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

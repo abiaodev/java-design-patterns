@@ -1,12 +1,5 @@
-package com.biao.observer;
+package com.biao.observer.generic;
 
-import com.biao.observer.generic.*;
-import com.biao.observer.generic.ConcretePeopleOne;
-import com.biao.observer.generic.ConcretePeopleTwo;
-
-/**
- * 观察者模式
- */
 class App {
     public static void main(String[] arg) {
         People observer1 = new ConcretePeopleOne();
