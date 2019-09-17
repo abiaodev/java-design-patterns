@@ -1,6 +1,6 @@
 package com.biao.observer;
 
-public class ConcreteSubject extends Subject {
+class ConcreteSubject extends Subject {
     private String state;
 
     public void changeState(String state) {

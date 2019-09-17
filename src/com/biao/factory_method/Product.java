@@ -1,5 +1,5 @@
 package com.biao.factory_method;
 
-public interface Product {
+interface Product {
     void desc();
 }

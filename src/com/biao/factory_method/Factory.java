@@ -1,5 +1,5 @@
 package com.biao.factory_method;
 
-public interface Factory {
+interface Factory {
     Product createProduct();
 }

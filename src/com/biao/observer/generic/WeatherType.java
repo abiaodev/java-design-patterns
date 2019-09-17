@@ -1,6 +1,6 @@
 package com.biao.observer.generic;
 
-public class WeatherType {
+class WeatherType {
    private String type;
 
     public String getType() {

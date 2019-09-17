@@ -1,5 +1,5 @@
 package com.biao.proxy;
 
-public interface Movie {
+interface Movie {
     void play();
 }

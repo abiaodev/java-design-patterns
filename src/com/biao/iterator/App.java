@@ -5,7 +5,7 @@ import com.biao.Logger;
 /**
  * 迭代器模式
  */
-public class App {
+class App {
     public static void main(String[] args) {
         ConcreteAggregate concreteAggregate = new ConcreteAggregate();
         concreteAggregate.setItem(0, "大鸟0");

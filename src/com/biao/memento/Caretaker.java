@@ -1,6 +1,6 @@
 package com.biao.memento;
 
-public class Caretaker {
+class Caretaker {
     private Memento memento;
 
     public Memento getMemento() {

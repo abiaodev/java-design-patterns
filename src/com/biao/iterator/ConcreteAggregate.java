@@ -3,7 +3,7 @@ package com.biao.iterator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ConcreteAggregate extends Aggregate {
+class ConcreteAggregate extends Aggregate {
     private List<Object> objects = new ArrayList<>();
     @Override
     public Iterator createIterator() {

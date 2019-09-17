@@ -5,7 +5,7 @@ import com.biao.Logger;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Composite extends Component {
+class Composite extends Component {
     private List<Component> components = new ArrayList<>();
 
     public Composite(String name) {

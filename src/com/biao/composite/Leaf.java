@@ -2,7 +2,7 @@ package com.biao.composite;
 
 import com.biao.Logger;
 
-public class Leaf extends Component {
+class Leaf extends Component {
     public Leaf(String name) {
         super(name);
     }

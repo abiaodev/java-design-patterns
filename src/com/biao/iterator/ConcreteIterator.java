@@ -1,6 +1,6 @@
 package com.biao.iterator;
 
-public class ConcreteIterator extends Iterator {
+class ConcreteIterator extends Iterator {
     private ConcreteAggregate concreteAggregate;
     private int current = 0;
 

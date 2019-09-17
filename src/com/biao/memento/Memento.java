@@ -1,6 +1,6 @@
 package com.biao.memento;
 
-public class Memento {
+class Memento {
     private String state;
 
     public Memento(String state) {

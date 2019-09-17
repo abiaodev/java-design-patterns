@@ -5,7 +5,7 @@ import com.biao.Logger;
 /**
  * 发起人
  */
-public class Originator {
+class Originator {
     private String state;
 
     public String getState() {

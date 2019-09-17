@@ -2,7 +2,7 @@ package com.biao.proxy;
 
 import com.biao.Logger;
 
-public class MovieProxy implements Movie {
+class MovieProxy implements Movie {
    private Movie movie;
     public MovieProxy(Movie movie){
         this.movie = movie;

@@ -3,7 +3,7 @@ package com.biao.facade;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ActivityFacade {
+class ActivityFacade {
     private List<DayActivity> activities;
 
     public ActivityFacade() {

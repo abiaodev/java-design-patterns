@@ -3,7 +3,7 @@ package com.biao.memento;
 /**
  * 备忘录模式
  */
-public class App {
+class App {
     public static void main(String[] args){
         Originator originator = new Originator();
         originator.setState("On");

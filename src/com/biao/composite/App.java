@@ -3,7 +3,7 @@ package com.biao.composite;
 /**
  * 组合模式
  */
-public class App {
+class App {
     public static void main(String[] args){
         Composite composite1 = new Composite("总公司");
         composite1.add(new Leaf("总公司部门一"));

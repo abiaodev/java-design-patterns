@@ -2,7 +2,7 @@ package com.biao.observer;
 
 import com.biao.Logger;
 
-public class ConcreteObserverTwo implements Observer {
+class ConcreteObserverTwo implements Observer {
     private String state;
 
     @Override

@@ -5,7 +5,7 @@ import com.biao.Logger;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class ConcreteObserverOne implements Observer {
+class ConcreteObserverOne implements Observer {
     private String state;
 
     @Override
