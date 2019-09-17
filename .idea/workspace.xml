@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2db3e5-e2bc-4fdd-97bc-9deb5f88f935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/biao/memento/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/memento/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/memento/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/composite/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/composite/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/iterator/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (3)">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.biao.decorator.App" />
       <module name="java-design-patterns" />
@@ -100,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.biao.facade.App" />
+    <configuration name="App (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.proxy.App" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.biao.facade.*" />
+          <option name="PATTERN" value="com.biao.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.biao.proxy.App" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.composite.App" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.biao.proxy.*" />
+          <option name="PATTERN" value="com.biao.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App (4)" />
       <item itemvalue="Application.App (5)" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.App (2)" />
       <item itemvalue="Application.App (3)" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (5)" />
-        <item itemvalue="Application.App (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568711092961</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增：备忘录模式">
+      <created>1568711670351</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568711670351</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +225,8 @@
     <MESSAGE value="新增：代理模式" />
     <MESSAGE value="新增：完善装饰模式" />
     <MESSAGE value="新增：工厂方法模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增：工厂方法模式" />
+    <MESSAGE value="新增：备忘录模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增：备忘录模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
