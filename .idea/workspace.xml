@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2db3e5-e2bc-4fdd-97bc-9deb5f88f935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/biao/singleton/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/bridge/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/bridge/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/bridge/ConcreteImplementorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/bridge/ConcreteImplementorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/bridge/Implementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/biao/bridge/RefinedAbstractionA.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +62,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (5)">
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.biao.factory_method.App" />
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.bridge.App" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.biao.factory_method.*" />
+          <option name="PATTERN" value="com.biao.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App (2)" />
       <item itemvalue="Application.App (3)" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.App (4)" />
       <item itemvalue="Application.App (5)" />
+      <item itemvalue="Application.App (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (5)" />
         <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App (3)" />
-        <item itemvalue="Application.App (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568724694292</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="新增：单例模式">
+      <created>1568725253261</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568725253261</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +257,8 @@
     <MESSAGE value="新增：组合模式" />
     <MESSAGE value="新增：迭代器模式" />
     <MESSAGE value="优化：将所有public去掉" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化：将所有public去掉" />
+    <MESSAGE value="新增：单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增：单例模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
