@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e2db3e5-e2bc-4fdd-97bc-9deb5f88f935" name="Default Changelist" comment="删除：out">
-      <change afterPath="$PROJECT_DIR$/src/com/biao/proxy/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/proxy/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/proxy/MovieProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/biao/proxy/RealMovie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2e2db3e5-e2bc-4fdd-97bc-9deb5f88f935" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/biao/decorator/DecoratorTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/biao/abstract_factory/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/abstract_factory/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/biao/adapter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/adapter/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/biao/builder_1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/builder_1/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/biao/builder_2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/builder_2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/biao/facade/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/facade/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/biao/observer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/observer/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/biao/state/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/state/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/biao/template_method/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/template_method/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/biao/template_method/BaseMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/template_method/BaseMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/biao/decorator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/decorator/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/biao/decorator/ConcreteComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/decorator/ConcreteComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/biao/decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/decorator/Decorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/biao/decorator/DecoratorOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/biao/decorator/DecoratorOne.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +62,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (5)">
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.biao.abstract_factory.App" />
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.decorator.App" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.biao.abstract_factory.*" />
+          <option name="PATTERN" value="com.biao.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,18 +143,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.App (2)" />
       <item itemvalue="Application.App (3)" />
       <item itemvalue="Application.App (4)" />
       <item itemvalue="Application.App (5)" />
+      <item itemvalue="Application.App (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (5)" />
         <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App (3)" />
-        <item itemvalue="Application.App (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566962328787</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增：代理模式">
+      <created>1568708954514</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568708954514</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +201,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除：out" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除：out" />
+    <MESSAGE value="新增：代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增：代理模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

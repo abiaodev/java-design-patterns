@@ -1,14 +1,11 @@
 package com.biao.decorator;
 
-class ConcreteComponent implements Component {
-    private Component component;
+import com.biao.Logger;
 
-    public ConcreteComponent(Component component) {
-        this.component = component;
-    }
+class ConcreteComponent implements Component {
 
     @Override
     public void operation(String name) {
-        component.operation(name);
+        Logger.LOG("ConcreteComponent#operation:" + name);
     }
 }
