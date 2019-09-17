@@ -9,5 +9,7 @@ class App {
         methodRunImp.run();
         methodRunImp.changeMethod(new ConcreteMethodTwo());
         methodRunImp.run();
+
     }
+
 }

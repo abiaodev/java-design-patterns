@@ -1,5 +1,8 @@
 package com.biao.state;
 
+/**
+ * 状态模式
+ */
 class App {
     public static void main(String[] args) {
         Work work = new Work(new ConcreteStateOne());

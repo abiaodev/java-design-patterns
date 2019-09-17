@@ -10,5 +10,6 @@ abstract class BaseMethod {
     public void runMethod() {
         Logger.LOG("stepOne:" + stepOne());
         Logger.LOG("stepTwo:" + stepTwo());
+
     }
 }

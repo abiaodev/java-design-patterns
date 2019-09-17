@@ -1,7 +1,7 @@
 package com.biao.builder_1;
 
 /**
- * 装饰模式
+ * 构建者模式
  */
 class App {
     public static void main(String[] arg) {

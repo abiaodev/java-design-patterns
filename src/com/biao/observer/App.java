@@ -5,7 +5,7 @@ import com.biao.observer.generic.ConcretePeopleOne;
 import com.biao.observer.generic.ConcretePeopleTwo;
 
 /**
- * 装饰模式
+ * 观察者模式
  */
 class App {
     public static void main(String[] arg) {

@@ -1,7 +1,7 @@
 package com.biao.abstract_factory;
 
 /**
- * 抽象工厂
+ * 抽象工厂模式
  */
 class App {
     public static void main(String[] arg) {

@@ -1,7 +1,7 @@
 package com.biao.adapter;
 
 /**
- * 适配器
+ * 适配器模式
  */
 class App {
     public static void main(String[] arg) {
